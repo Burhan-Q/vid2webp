@@ -1,0 +1,52 @@
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Editors / IDEs ---
+.vscode/
+.idea/
+*.code-workspace
+*.swp
+
+# --- Secrets / env ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+*.log
+
+# --- Misc ---
+*.gif
+*.avif
+*.webm
+*.webp
+.ruff_cache/
+weights/
+.playwright-mcp/
+.claude/
+.ref/
+docs/superpowers/
+*.pt
+*.pth
+*.safetensors
+*.engine
+*.onnx
+*.gguf
+
+# --- Node (JS/TS) ---
+node_modules/
