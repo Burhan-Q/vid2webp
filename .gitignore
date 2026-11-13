@@ -31,10 +31,6 @@ venv/
 *.log
 
 # --- Misc ---
-*.gif
-*.avif
-*.webm
-*.webp
 .ruff_cache/
 weights/
 .playwright-mcp/
